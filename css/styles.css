@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+}
+
+/* Título */
+h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* Número del contador */
+#numero {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 20px 0;
+
+  padding: 20px 40px;
+  border-radius: 15px;
+
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+
+  transition: all 0.3s ease;
+}
+
+/* Contenedor de botones */
+button {
+  font-size: 20px;
+  padding: 12px 20px;
+  margin: 5px;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Botón + */
+#aumentar {
+  background-color: #22c55e;
+  color: white;
+}
+
+/* Botón - */
+#disminuir {
+  background-color: #ef4444;
+  color: white;
+}
+
+/* Hover general */
+button:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+/* Efecto al hacer clic */
+button:active {
+  transform: scale(0.95);
+}
