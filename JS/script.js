@@ -1,3 +1,5 @@
+
+
 const numero = document.getElementById("numero");
 const btnAumentar = document.getElementById("aumentar");
 const btnDisminuir = document.getElementById("disminuir");
